@@ -1,0 +1,35 @@
+﻿
+
+body {
+    background-color:aquamarine;
+    background-image: url("../Img/tree-imag.jpg");
+    background-repeat: no-repeat;
+    background-position: right top ;
+    margin-right: 200px;
+    background-attachment: scroll;
+}
+
+.navebar 
+{
+    background-color: brown;
+
+   
+        
+}
+
+.navebar ul
+{
+    overflow: auto              /* stoping the effect of child node li on parent node .navbar */
+
+}
+.navebar  li 
+{
+    float:left;             /* appearing from left to right
+    list-style:none;      /* removing the bullets for list */ 
+}
+
+.navebar li a {
+    padding: 1px 30px;
+}
+
+
