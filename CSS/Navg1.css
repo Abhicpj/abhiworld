@@ -1,22 +1,8 @@
-﻿
-
-body {
-    background-color:aquamarine;
-    background-image: url("../Img/tree-imag.jpg");
-    background-repeat: no-repeat;
-    background-position: right top ;
-    margin-right: 200px;
-    background-attachment: scroll;
-}
-
+﻿/* creating navigation in horizental top*/
 .navebar 
 {
-    background-color: brown;
-
-   
-        
+    background-color: brown;      
 }
-
 .navebar ul
 {
     overflow: auto              /* stoping the effect of child node li on parent node .navbar */
@@ -27,9 +13,21 @@ body {
     float:left;             /* appearing from left to right
     list-style:none;      /* removing the bullets for list */ 
 }
-
 .navebar li a {
     padding: 1px 30px;
 }
+
+
+/*   Place navigation in bottom  */
+
+.navb {
+    
+    
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
