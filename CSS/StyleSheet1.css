@@ -1,4 +1,5 @@
-﻿body {
+﻿/* page design style*/
+body {
     background-color: papayawhip;
     opacity: 0.6;
 }
@@ -21,7 +22,7 @@ h1 {
 }
 
 /*  -----CSS class selector-------  */
-/*   ---here due to defind p before . CSS will apply on only <p> elements with class="center"  */
+/*   ---here due to defind p before dot(.) CSS will apply on only <p> elements with class="center"  */
 p.center {
     text-align: initial;
     color: red;

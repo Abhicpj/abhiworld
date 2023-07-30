@@ -2,17 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Feedback form</title>
+
+    <link rel="stylesheet" href="../CSS/TextStyle.css" />
+
 </head>
+
+
 <body>
+    <h1 class="centr"> Feedback Page</h1>
 
+    <nav >
+        <ul>
+            <!--    use of link   -->
+            <li><a href="../index.html">Home</a></li>
+            
+        </ul>
+    </nav>
 
-<form id="loginForm">
-   <input name="username" type="text" />
-   <input name="password" type="password" />
-   <input name="continue" type="submit" value="Login" />
-   <input name="continue" type="button" value="Clear" />
-  </form>
+    <p> <b>Enter you feedback here after login</b></p>
+
+    <form id="loginForm">
+        <label for="unm"> User</label> <br />
+        <input name="username" id="unm" type="text" /> <br />
+
+        <label for="psd">Password</label> <br />
+        <input name="password" id="psd" type="password" /> <br />
+
+        <input style=" margin:4px " name="continue" type="submit" value="Login" />
+        <input style="margin:4px" name="continue" type="button" value="Clear" />
+    </form>
+
 
 </body>
 </html>

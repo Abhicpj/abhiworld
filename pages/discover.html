@@ -3,12 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Discovery</title>
-</head>
-<body>
-<p> please click on a type and you will see image according with this</p>
 
-<button onclick="document.getElementById('myImage').src='../Img/baaz.jfif'">Bazz</button>
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <link rel="stylesheet" href="../CSS/TextStyle.css" />
+    <link rel="stylesheet" href="../CSS/ImageStyle.css" />
+
+    <style>
+		.image {
+            display : none;
+		}
+    </style>
+
+    <script>
+
+        function show(nm ) {
+            // change style for image as block
+            document.getElementById(nm)
+                .style.display = "block";  
+
+            //changes style for button content display as none
+			document.getElementById()
+                .style.display = "none";
+        }
+    </script>
+   
+</head>
+
+
+
+<body>
+
+    <h1 class="centr"> Discover by Click</h1>
+    <p> please click on any name mention below and you will see image of that</p>
+
+    <ul>
+        <!--    use of link   -->
+
+        <li><a href="../index.html">Home</a></li>
+
+    </ul>
+    <button onclick="show('tiger',)" id="btnid"> Tiger </button>
+    <img class="image" id="tiger" src="../Img/tiger.jfif" alt="Tiger" width="500" height="200">
+
+    <button onclick="show('baaz')" id="btnid"> Baaz </button>
+    <img class="image" id="baaz" src="../Img/baaz.jfif" alt="Baaz" width="500" height="200">
+
+    <button onclick="show('dear')" id="btnid"> Dear </button>
+    <img class="image" id="dear" src="../Img/dear.jfif" alt="Dear" width="500" height="200">
+
+    <button onclick="show('lion')" id="btnid"> Lion </button>
+    <img class="image" id="lion" src="../Img/lion.jfif" alt="lion" width="500" height="200">
+
+    <button onclick="show('peacock')" id="btnid"> Peacock </button>
+    <img class="image" id="peacock" src="../Img/peacock.jfif" alt="peacock" width="500" height="200">
+
+
 
 </body>
-</html>
+    </html>

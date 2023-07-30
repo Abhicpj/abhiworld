@@ -1,0 +1,9 @@
+
+body {
+    background-color:aquamarine;
+    background-image: url("../Img/tree-imag.jpg");
+    background-repeat: no-repeat;
+    background-position: right top ;
+    margin-right: 200px;
+    background-attachment: scroll;
+}
